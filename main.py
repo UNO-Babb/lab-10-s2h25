@@ -2,7 +2,6 @@
 #Name:
 #Date:
 #Assignment:
-
 import video_games
 import pandas
 import matplotlib.pyplot as plt
@@ -37,3 +36,5 @@ plt.xlabel("Review Score")
 plt.ylabel("Main Story Play Time (hrs)")
 plt.savefig("output")
 plt.show()
+
+#The charts/visualization showed how critics review scores related to the average playing time for the main story of video games.  In a attempt to clean up the plotting, I helped it focus on review scores between 50-100 and playing time under 60 hours.  A few patterns revealed that some of the highest rated games are not necessarily the longest, play time does not guarantee quality, and most games under 20 hours received top review scores. 
